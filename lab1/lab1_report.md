@@ -6,7 +6,7 @@ Group: U4125
 Author: Tkachenko Elizaveta Andreevna  
 Lab: Lab1  
 Date of create: 03.03.2026  
-Date of finished:  
+Date of finished: 03.03.2026  
 
 Лабораторная работа №1 "Основы работы с Docker"
 
