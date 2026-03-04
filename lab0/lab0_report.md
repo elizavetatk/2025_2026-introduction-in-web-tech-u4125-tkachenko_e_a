@@ -6,7 +6,7 @@ Group: U4125
 Author: Tkachenko Elizaveta Andreevna  
 Lab: Lab0  
 Date of create: 02.03.2026  
-Date of finished:
+Date of finished: 03.03.2026  
 
 Для работы я использовала Ubuntu через WSL.
 
