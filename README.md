@@ -9,4 +9,6 @@
 
 4. Лабораторная работа №3 "Мониторинг с Prometheus и Grafana"
 
-Курсовая работа "Создание персонального сайта с использованием MkDocs"
+Курсовая работа "Создание персонального сайта с использованием MkDocs":  
+
+https://elizavetatk.github.io/2025_2026-introduction-in-web-tech-u4125-tkachenko_e_a/
