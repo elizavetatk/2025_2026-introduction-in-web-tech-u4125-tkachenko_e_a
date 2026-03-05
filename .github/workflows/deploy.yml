@@ -1,0 +1,34 @@
+name: Deploy MkDocs site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+      - coursework-site
+    paths:
+      - 'my-personal-site/**'
+      - '.github/workflows/deploy.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      
+      - name: Install dependencies
+        run: |
+          pip install mkdocs mkdocs-material
+          pip install mkdocs-include-markdown-plugin
+      
+      - name: Deploy to GitHub Pages
+        run: |
+          cd my-personal-site
+          mkdocs gh-deploy --force --config-file mkdocs.yml --remote-branch gh-pages
