@@ -1,0 +1,53 @@
+site_name: Персональный сайт | Елизавета Ткаченко
+site_description: Персональный сайт, созданный с использованием технологии MkDocs и языка разметки Markdown в рамках курсовой работы по предмету "Введение в веб технологии"
+site_author: Елизавета Ткаченко
+site_url: https://elizavetatk.github.io/2025_2026-introduction-in-web-tech-u4125-tkachenko_e_a/
+
+theme:
+  name: material
+  language: ru
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.share
+    - navigation.expand
+    - content.code.copy
+  palette:
+    primary: indigo
+    accent: pink
+
+markdown_extensions:
+  - admonition
+  - tables
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search
+#  - include-markdown
+
+nav:
+  - Главная: index.md
+  - О себе: about.md
+  - Проекты: projects.md
+  - Контакты: contacts.md
+  - Достижения: achievements.md
+
+markdown_extensions:
+  - admonition
+  - tables
+  - attr_list
+
+copyright: Copyright &copy; 2026 Елизавета Ткаченко
+extra:
+  social:
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/llsate
+      name: Telegram
+    - icon: fontawesome/brands/github
+      link: https://github.com/elizavetatk
+      name: GitHub
