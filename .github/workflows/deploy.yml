@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-      - coursework-mkdocs-site
+      - coursework-site
     paths:
       - 'my-personal-site/**'
       - '.github/workflows/deploy.yml'
