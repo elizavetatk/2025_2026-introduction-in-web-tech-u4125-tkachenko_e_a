@@ -40,12 +40,12 @@ Date of finished:
 
 5. Настройка Grafana:
 - Войти в Grafana
-- Добавить источник данных Prometheus:
+- **Добавить источник данных Prometheus:**
 * Configuration → Data Sources → Add data source
 * Выбрать Prometheus
 * URL: http://prometheus:9090
 * Save & Test
-- Создать дашборд:
+- **Создать дашборд:**
 * Create → Dashboard → Add visualization
 * Выбрать источник данных Prometheus
 * Добавить метрику: node_cpu_seconds_total
@@ -62,6 +62,6 @@ Date of finished:
 - Открыть Grafana и проверить отображение графиков
 - Создать несколько графиков для разных метрик  
 
-Выбрала такие метрики и добавила их графики:
-Память: node_memory_MemTotal_bytes  
+Выбрала такие метрики и добавила их графики:  
+Память: node_memory_MemTotal_bytes    
 Диск: node_filesystem_size_bytes  
